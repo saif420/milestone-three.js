@@ -17,8 +17,23 @@ function woodCalculator(chair, table, bad){
 // woodCalculator
 
 // brickCalculator
-
-
+function brickCalculator(aptMan){
+    if(aptMan <= 10){
+        var feet10 = aptMan * 15;
+        var brick = feet10 * 1000;
+    }
+    else if(aptMan <= 20){
+        var feet20 = aptMan * 12;
+        var brick = feet20 * 1000;
+    }
+    else if(aptMan > 20){
+        var feet30 = aptMan * 10;
+        var brick = feet30 * 1000;
+    }
+    return brick; 
+}
+var first = brickCalculator(8);
+console.log(first);
 // brickCalculator
 
 
