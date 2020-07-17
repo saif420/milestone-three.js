@@ -32,8 +32,7 @@ function brickCalculator(aptMan){
     }
     return brick; 
 }
-var first = brickCalculator(8);
-console.log(first);
+
 // brickCalculator
 
 
